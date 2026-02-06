@@ -10,10 +10,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    background:
-        radial-gradient(circle at center, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.75) 30%, transparent 60%),
-        linear-gradient(135deg, #8a2be2 0%, #b66dff 40%, #8a2be2 100%);
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #ffffff 100%);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
