@@ -6,14 +6,16 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #8a2be2 0%, #ffffff 100%);
-    background-size: cover;
-    background-repeat: no-repeat;
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+
+    background:
+        radial-gradient(circle at center, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.7) 25%, transparent 55%),
+        linear-gradient(135deg, #8a2be2 0%, #b66dff 40%, #8a2be2 100%);
 }
+
 
 .container {
     width: 100%;
